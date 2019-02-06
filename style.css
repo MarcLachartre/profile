@@ -1,0 +1,60 @@
+body {
+  background-color: #ECEDEF;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: auto
+}
+
+h2{
+  line-height: auto;
+  font-size: 20px
+}
+
+h3{
+
+  line-height: auto;
+  font-size: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: darkblue
+}
+
+
+.container {
+  margin: 0 auto;
+  text-align: center
+}
+
+.card {
+background-color: white;
+margin: 50px;
+padding: 30px;
+border-radius: 6px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px
+  }
+}
+
+.image5pcbordureradius {
+  border-radius: 5%
+}
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+#logo {border-radius: 10%}
